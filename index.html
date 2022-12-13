@@ -17,9 +17,9 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
-					<li><a href="#about">About Me</a></li>
 					<li><a href="#resume">Resume</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
+					<!-- <li><a href="#about">About Me</a></li> -->
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -39,9 +39,115 @@
 							<p>
 								And I'm a USAA professional software engineer, a UT Austin MS computer science student, and a Texas A&M BS computer engineering graduate!
 							</p>
-							<a href="#about" class="button large scrolly">Learn more about me</a>
+							<a href="#resume" class="button large scrolly">See my resume</a>
 						</div>
 					</div>
+				</div>
+			</article>
+
+		<!-- Resume -->
+			<article id="resume" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>My Resume</h2>
+						<p>Hint: Click my resume to download it as a pdf!</p>
+					</header>
+					<section>
+						<a href="images/Zachary_Steen_Resume.pdf" target="_blank" class="image featured">
+							<img src="images/resume.jpg" alt="" />
+						</a>
+					</section>
+					<footer>
+						<p>So what can I do?</p>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>My Portfolio</h2>
+						<p>Here are some items that showcase my technical abilities.</p>
+					</header>
+					<section class="box style2">
+						<h3>Senior Design Project</h3>
+						<p align="justify">
+							For my undergrad senior design project at Texas A&M University, a partner and I developed an augmented reality project using the Microsoft HoloLens 2 system.
+							The research was for the Texas A&M University Electrical Engineering Department, and we primarily coded it in C#.
+							Take a look at our final product demonstration below!
+						</p>
+						<video
+							controls
+							width="100%"
+							height="100%"
+							src="images/HoloLensEPS.mp4#t=1.00"
+							alt="Woah! A neat video of a augmented robot project Zachary worked on"
+						/>
+					</section>
+					<section class="box style2" id="capstone">
+						<h3>Internship Capstone</h3>
+						<p align="justify">
+							I was an IT intern at USAA, where I mostly did frontend development using the React JavaScript framework.
+							Take a look at my capstone presentation below for a complete overview, which I presented to almost 50 of my peers.
+						</p>
+						<video
+							controls
+							width="100%"
+							height="100%"
+							src="images/capstone.mov#t=0.01"
+							alt="Sweet video of Zachary's React.JS abilities"
+						/>
+					</section>
+					<section class="box style2">
+						<h3>Full-Stack Webapp Development</h3>
+						<p align="justify">
+							During my senior year of college, I took a software engineering course where I participated in an Agile Scrum team as the product owner and a core developer.
+							I gained valuable experience developing a point tracker application for TAMU Engineering Honors.
+							As product owner, I served as the communicator between our development team and our client, and would convert user concerns and needs into stories for our team.
+							As a core developer, I gained full-stack development experience from scratch using the Ruby on Rails framework and a PostgreSQL database.
+							Take a look at our final product demonstration below.
+						</p>
+						<video
+							controls
+							width="100%"
+							height="100%"
+							src="images/CSCE431ProjectPresentation.mov#t=0.01"
+							alt="Super cool video about Zachary's full-stack web-dev and Agile experience"
+						/>
+					</section>
+					<section class="box style2" id="architecture">
+						<h3>Architectural Drafting</h3>
+						<p align="justify">
+							At Atriecon SDG, I translated and fixed C language code written for 16-bit machines into C++ code for modern computers.
+							I also drafted many details in AutoCAD.
+							These drawings are currently being used by contractors during construction of several storage facilities in San Antonio, Texas.
+							Here are some drawing I completed while working there.
+						</p>
+						<a href="images/autocad.pdf" target="_blank" class="image featured">
+							<!-- this is not the best way to do this -->
+							<img 
+								style="padding-left: 10px; padding-right: 10px;"
+								src="images/autocad.jpg"
+								alt="Some snazzy AutoCAD drawings that Zachary drew"
+							/>
+						</a>
+					</section>
+					<section class="box style2">
+						<h3>This Website</h3>
+						<p align="justify">
+							That's right.
+							This website is part of my portfolio!
+							It is written using HTML5, CSS3, and JavaScript based on a designer's Creative Commons free stylesheet from <a href="https://html5up.net" target="_blank">HTML5UP</a>.
+							I also am using other developers' widgets for the carousel images and the fillable contact form below.
+							See the source code <a href="https://github.com/zsteen13/zsteen13.github.io" target="_blank">here</a>.
+						</p>
+					</section>
+					<footer>
+						<p>Like what you see?</p>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
 				</div>
 			</article>
 
@@ -49,7 +155,7 @@
 			<article id="about" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2>About Me</h2>
+						<h2>More About Me</h2>
 						<p>Here are some of my interests.</p>
 					</header>
 					<div class="row aln-center">
@@ -173,116 +279,10 @@
 						</article>
 						</div>
 					</div>
-					<footer align="center">
+					<!-- <footer align="center">
 						<p>What do I do for work?</p>
 						<a href="#resume" class="button large scrolly">See my resume</a>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Resume -->
-			<article id="resume" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>My Resume</h2>
-						<p>Hint: Click my resume to download it as a pdf!</p>
-					</header>
-					<section>
-						<a href="images/Zachary_Steen_Resume.pdf" target="_blank" class="image featured">
-							<img src="images/resume.jpg" alt="" />
-						</a>
-					</section>
-					<footer>
-						<p>So what can I do?</p>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>My Portfolio</h2>
-						<p>Here are some items that showcase my technical abilities.</p>
-					</header>
-					<section class="box style2">
-						<h3>Senior Design Project</h3>
-						<p align="justify">
-							For my undergrad senior design project at Texas A&M University, a partner and I developed an augmented reality project using the Microsoft HoloLens 2 system.
-							The research was for the Texas A&M University Electrical Engineering Department, and we primarily coded it in C#.
-							Take a look at our final product demonstration below!
-						</p>
-						<video
-							controls
-							width="100%"
-							height="100%"
-							src="images/HoloLensEPS.mp4#t=1.00"
-							alt="Woah! A neat video of a augmented robot project Zachary worked on"
-						/>
-					</section>
-					<section class="box style2" id="capstone">
-						<h3>Internship Capstone</h3>
-						<p align="justify">
-							I was an IT intern at USAA, where I mostly did frontend development using the React JavaScript framework.
-							Take a look at my capstone presentation below for a complete overview, which I presented to almost 50 of my peers.
-						</p>
-						<video
-							controls
-							width="100%"
-							height="100%"
-							src="images/capstone.mov#t=0.01"
-							alt="Sweet video of Zachary's React.JS abilities"
-						/>
-					</section>
-					<section class="box style2">
-						<h3>Full-Stack Webapp Development</h3>
-						<p align="justify">
-							During my senior year of college, I took a software engineering course where I participated in an Agile Scrum team as the product owner and a core developer.
-							I gained valuable experience developing a point tracker application for TAMU Engineering Honors.
-							As product owner, I served as the communicator between our development team and our client, and would convert user concerns and needs into stories for our team.
-							As a core developer, I gained full-stack development experience from scratch using the Ruby on Rails framework and a PostgreSQL database.
-							Take a look at our final product demonstration below.
-						</p>
-						<video
-							controls
-							width="100%"
-							height="100%"
-							src="images/CSCE431ProjectPresentation.mov#t=0.01"
-							alt="Super cool video about Zachary's full-stack web-dev and Agile experience"
-						/>
-					</section>
-					<section class="box style2" id="architecture">
-						<h3>Architectural Drafting</h3>
-						<p align="justify">
-							At Atriecon SDG, I translated and fixed C language code written for 16-bit machines into C++ code for modern computers.
-							I also drafted many details in AutoCAD.
-							These drawings are currently being used by contractors during construction of several storage facilities in San Antonio, Texas.
-							Here are some drawing I completed while working there.
-						</p>
-						<a href="images/autocad.pdf" target="_blank" class="image featured">
-							<!-- this is not the best way to do this -->
-							<img 
-								style="padding-left: 10px; padding-right: 10px;"
-								src="images/autocad.jpg"
-								alt="Some snazzy AutoCAD drawings that Zachary drew"
-							/>
-						</a>
-					</section>
-					<section class="box style2">
-						<h3>This Website</h3>
-						<p align="justify">
-							That's right.
-							This website is part of my portfolio!
-							It is written using HTML5, CSS3, and JavaScript based on a designer's Creative Commons free stylesheet from <a href="https://html5up.net" target="_blank">HTML5UP</a>.
-							I also am using other developers' widgets for the carousel images and the fillable contact form below.
-							See the source code <a href="https://github.com/zsteen13/zsteen13.github.io" target="_blank">here</a>.
-						</p>
-					</section>
-					<footer>
-						<p>Like what you see?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
-					</footer>
+					</footer> -->
 				</div>
 			</article>
 
